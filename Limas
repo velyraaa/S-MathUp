@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed GeoGebra Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        iframe {
+            max-width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Embed GeoGebra on a Website</h1>
+
+    <!-- Embedding a GeoGebra applet -->
+    <iframe 
+        src="https://www.geogebra.org/material/iframe/id/pwxf6qve" 
+        allowfullscreen>
+    </iframe>
+
+    <p>Replace <code>EXAMPLE_ID</code> with the actual ID of the GeoGebra applet you want to embed.</p>
+</body>
+</html>
